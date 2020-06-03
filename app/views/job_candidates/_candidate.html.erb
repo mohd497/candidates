@@ -1,0 +1,33 @@
+<% candidates.each do |job_candidate| %>
+
+  <div class="col-xs-4 col-sm-4">
+    <div class="box-part">
+
+      <div class="title text-center">
+        <h4><%= job_candidate.name %></h4>
+      </div>
+
+      <div class="text text-center">
+        <span><%= job_candidate.age %></span>
+      </div>
+
+      <div class="text text-center">
+        <span><%= job_candidate.current_address %></span>
+      </div>
+
+      <div class="text text-center">
+        <span><%= job_candidate.email %></span>
+      </div>
+
+      <div class="text text-center">
+        <span><%= job_candidate.phone_number %></span>
+      </div>
+
+      <td><%= link_to 'Show', job_candidate %></td>
+      <td><%= link_to 'Edit', edit_job_candidate_path(job_candidate) %></td>
+      <td><%= link_to 'Destroy', job_candidate, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+
+    </div>
+  </div>
+
+<% end %>

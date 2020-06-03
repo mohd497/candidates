@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @job_candidate.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @job_candidate.age %>
+</p>
+
+<p>
+  <strong>Current address:</strong>
+  <%= @job_candidate.current_address %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @job_candidate.email %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @job_candidate.phone_number %>
+</p>
+
+<%= link_to @job_candidate.resume.filename, rails_blob_path(@job_candidate.resume, disposition: "attachment") %>
+
+<%= link_to 'Edit', edit_job_candidate_path(@job_candidate) %> |
+<%= link_to 'Back', job_candidates_path %>

@@ -1,0 +1,225 @@
+// Place all the styles related to the job_candidates controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body{
+  background:  	#D3D3D3;
+}
+span{
+  font-size:15px;
+}
+
+.box{
+  padding:60px 0px;
+}
+
+.box-part{
+  background:#FFF;
+  border-radius:0;
+  padding:60px 10px;
+  margin:30px 0px;
+  height: 450px;
+}
+.text{
+  margin:20px 0px;
+}
+
+.fa{
+  color:#4183D7;
+}
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-right: 4px;
+  width: 110px;
+  height: 32px;
+  input{
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    direction: ltr;
+    cursor: pointer;
+  }
+}
+
+.search-bar {
+  width: 300px;
+  height: 20px;
+  box-shadow: none;
+  background-color: white;
+  font-size: 14px;
+  height: 30px;
+  margin: 5px 0;
+  padding-right: 26px;
+  padding-left: 10px;
+  -webkit-border-radius: 3px;
+  /* For Safari, etc. */
+  -moz-border-radius: 3px;
+  /*For Mozilla, etc.*/
+  border-radius: 3px;
+  /*CSS3 Feature*/
+}
+.icon-search {
+  position: relative;
+  left: -30px;
+  top: 12px;
+}
+
+.search-button {
+  margin-top: 6px;
+  height: 30px;
+  padding: 2px 0.75rem;
+}
+.import-button {
+  margin-top: 5px;
+  height: 30px;
+  padding: 2px 0.75rem;
+  float: right;
+}
+
+div.browse-wrap {
+  top:0;
+  left:0;
+  cursor:pointer;
+  overflow:hidden;
+  padding:20px 60px;
+  text-align:center;
+  position:relative;
+  background-color:#f6f7f8;
+  border:solid 1px #d2d2d7;
+  width: 370px;
+}
+div.title {
+  color:#3b5998;
+  font-size:14px;
+  font-weight:bold;
+  font-family:tahoma, arial, sans-serif;
+}
+
+input.upload {
+  right:0;
+  margin:0;
+  bottom:0;
+  padding:0;
+  opacity:0;
+  height:300px;
+  outline:none;
+  cursor:inherit;
+  position:absolute;
+  font-size:1000px !important;
+}
+
+span.upload-path {
+  text-align: center;
+  margin:20px;
+  display:block;
+  font-size: 80%;
+  color:#3b5998;
+  font-weight:bold;
+  font-family:tahoma, arial, sans-serif;
+}
+
+.country {
+  width: 142px;
+}
+.price {
+  width: 100px;
+  height: 20px;
+  box-shadow: none;
+  background-color: white;
+  font-size: 14px;
+  height: 30px;
+  margin: 5px 5px;
+  padding-right: 26px;
+  padding-left: 10px;
+  -webkit-border-radius: 3px;
+  /* For Safari, etc. */
+  -moz-border-radius: 3px;
+  /*For Mozilla, etc.*/
+  border-radius: 3px;
+}
+
+.btn-margin {
+  margin-top: 5px;
+}
+.sort-select{
+  float: right;
+  margin-right: 5px;
+}
+
+.shop_pagination {
+  background: white;
+  cursor: default;
+  /* self-clearing method: */ }
+.shop_pagination a, .shop_pagination span, .shop_pagination em {
+  padding: 0.2em 0.5em;
+  display: block;
+  float: left;
+  margin-right: 1px; }
+.shop_pagination .disabled {
+  color: #999999;
+  border: 1px solid #dddddd; }
+.shop_pagination .current {
+  font-style: normal;
+  font-weight: bold;
+  background: #2e6ab1;
+  color: white;
+  border: 1px solid #2e6ab1; }
+.shop_pagination a {
+  text-decoration: none;
+  color: #105cb6;
+  border: 1px solid #9aafe5; }
+.shop_pagination a:hover, .shop_pagination a:focus {
+  color: #000033;
+  border-color: #000033; }
+.shop_pagination .page_info {
+  background: #2e6ab1;
+  color: white;
+  padding: 0.4em 0.6em;
+  width: 22em;
+  margin-bottom: 0.3em;
+  text-align: center; }
+.shop_pagination .page_info b {
+  color: #000033;
+  background: #6aa6ed;
+  padding: 0.1em 0.25em; }
+.shop_pagination:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+* html .shop_pagination {
+  height: 1%; }
+*:first-child + html .shop_pagination {
+  overflow: hidden; }
+
+.selectbox {
+  border: 1px solid #aaaaaa;
+  width: 200px;
+  height: 32px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 3px;
+  overflow: hidden;
+
+  background: #fff url("http://2.bp.blogspot.com/-skbBL94g7II/VFHP4MZey3I/AAAAAAAACqc/f4ix9SuaB70/s1600/drop2.png") no-repeat 100% 50%;
+}
+
+.selectbox select {
+  padding: 5px 8px;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  color:#333;
+}
+
+.selectbox select:focus {
+  outline: none;
+}

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<div class="box">
+  <div class="container">
+    <div>
+      <%= render "filter" %>
+    </div>
+    <div class="row" id="products">
+      <%= render "candidate", candidates: @job_candidates %>
+    </div>
+    <div class="shop_pagination">
+      <div class="page_info">
+        <%= page_entries_info @job_candidates %>
+      </div>
+      <%= will_paginate @job_candidates, :container => false %>
+    </div>
+  </div>
+</div>
+
+
+
+<br>
+
+

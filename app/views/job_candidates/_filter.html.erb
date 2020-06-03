@@ -1,0 +1,11 @@
+<%= simple_form_for :search, url: root_path, method: "GET" do |f| %>
+  <span>
+    <div class="input-group" >
+       <%= f.input :name, id: "name", :input_html => { :class => "search-bar" }, label: false, placeholder: 'search' %>
+       <i class="fa fa-search icon-search"></i>
+           <%= f.submit 'Search', class: "btn btn-success search-button" %>
+    </div>
+       <a href="#" class="reset">reset</a>
+    <%= link_to 'New Job Candidate', new_job_candidate_path, style: 'float: right', class: 'btn btn-primary' %>
+  </span>
+<% end %>
