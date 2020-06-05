@@ -16,4 +16,10 @@ Things you may want to cover:
   * config database in database.yml.
   * run `rake db:create db:migrate`.
   * run `rake db:seed` for seed file.
+  
+### What is remaining
+
+ * Front-end
+ * More validations
+ * Add more keywords for technologies
  
