@@ -28,6 +28,9 @@ class JobCandidatesController < ApplicationController
 
     respond_to do |format|
       if @job_candidate.save
+
+        JobCandidates.add_search_tech(@job_candidate)
+
         format.html { redirect_to @job_candidate, notice: 'Candidate was successfully created.' }
         format.json { render :show, status: :created, location: @job_candidate }
       else

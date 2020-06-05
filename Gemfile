@@ -36,6 +36,10 @@ gem 'will_paginate', '~> 3.1.0'
 
 gem 'jquery-rails'
 
+gem 'pdf-reader'
+
+gem 'docx'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
